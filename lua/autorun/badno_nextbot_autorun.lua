@@ -4,6 +4,6 @@ if not SERVER then return end
 
 if not doingDynamicContent:GetBool() then -- this will only work after a server restart with the new convar!
     resource.AddWorkshop( "3330585475" ) -- bot ( sounds )
-    resource.AddWorkshop( "2691974423" ) -- playermodel
+    resource.AddWorkshop( "3736562249" ) -- playermodel
 
 end
