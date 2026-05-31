@@ -43,7 +43,7 @@ if CLIENT then
 
         if not gotBOTContent then
             attempts = attempts + 1
-            steamworks.DownloadUGC( "3330585475", function( path )
+            steamworks.DownloadUGC( "3736562249", function( path )
                 if not path then return end
                 gotBOTContent = game.MountGMA( path )
 
