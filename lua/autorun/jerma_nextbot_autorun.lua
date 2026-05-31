@@ -1,4 +1,4 @@
-local doingDynamicContent = CreateConVar( "jerminator_dynamic_content", 0, { FCVAR_ARCHIVE, FCVAR_REPLICATED }, "Dynamically request the jerma sounds whenever a bot is spawned?" )
+local doingDynamicContent = CreateConVar( "badno_dynamic_content", 0, { FCVAR_ARCHIVE, FCVAR_REPLICATED }, "Dynamically request the badno sounds whenever a bot is spawned?" )
 
 if not SERVER then return end
 
